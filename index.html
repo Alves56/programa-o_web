@@ -1,20 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Revisão de html e css</title>
+    <title>Programação WEB Turma A CC</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id = "titulo">  Formulario de Informações Pessoais </h1>
-    <div class = "entrada-usuario">
-    <input type="text" placeholder= "nome">
-    <input type="number" placeholder = "CPF">
-    <input type="email" placeholder = "Email">
+    <h1 id="titulo">Formulário de informações pessoais</h1>
+    <div class="entradas-formulario">
+        <input id="nome" type="text" placeholder="Nome">
+        <input id="idade" type="number" placeholder="Idade">
+        <input id="cpf" type="text" placeholder="CPF">
+        <button onclick="submeter();">Ok!</button>
     </div>
-    <button>OK</button>
-    <button>Cancel</button>
-    <p class = "rodape">Criado por Gabriel</p>
+    
+    <footer class="rodape">Criado por airtonbjunior</footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
